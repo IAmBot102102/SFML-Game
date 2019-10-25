@@ -1,0 +1,6 @@
+# Ignore Visual Studio Code files
+*.vscode/
+*.code-workspace
+
+# Ignore libraries without a repo
+lib/*-nosub
