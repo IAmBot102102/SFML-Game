@@ -2,5 +2,15 @@
 *.vscode/
 *.code-workspace
 
-# Ignore libraries without a repo
+## Ignore Binary Files
+*.o
+# Linux
+*.so
+*.a
+*.x86_64
+# Windows
+*.dll
+*.exe
+
+# Ignore Libraries Without a Repository
 lib/*-nosub
